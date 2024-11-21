@@ -1,5 +1,4 @@
-"Region","Year","Quarter","NotSeasonally-AdjustedPurchase-OnlyIndex(1991Q1=100)","Seasonally-Adjusted Purchase-OnlyIndex(1991Q1=100)","NotSeasonally-AdjustedPurchase-OnlyIndex%ChangeOverPreviousQuarter","Seasonally-AdjustedPurchase-OnlyIndex%ChangeOverPreviousQuarter",
-"NotSeasonally-AdjustedPurchase-OnlyIndex%ChangeOverPrevious4Quarters","Seasonally-AdjustedPurchase-OnlyIndex%ChangeOverPrevious4Quarters",
+"Region","Year","Quarter","NotSeasonally-AdjustedPurchase-OnlyIndex(1991Q1=100)","Seasonally-Adjusted Purchase-OnlyIndex(1991Q1=100)","NotSeasonally-AdjustedPurchase-OnlyIndex%ChangeOverPreviousQuarter","Seasonally-AdjustedPurchase-OnlyIndex%ChangeOverPreviousQuarter","NotSeasonally-AdjustedPurchase-OnlyIndex%ChangeOverPrevious4Quarters","Seasonally-AdjustedPurchase-OnlyIndex%ChangeOverPrevious4Quarters",
 USA,2000,1,136.38,136.52,1.53%,1.76%,6.42%,6.44%
 USA,2000,2,139.83,138.81,2.53%,1.67%,6.64%,6.63%
 USA,2000,3,142.19,140.99,1.68%,1.57%,6.69%,6.67%
