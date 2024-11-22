@@ -35,6 +35,46 @@
             margin-bottom: 1.5rem;
         }
 
+        /* Introduction section styling */
+        .introduction h2 {
+            font-size: 24px;
+            font-weight: bold;
+            margin-bottom: 15px;
+        }
+
+        .introduction p {
+            font-size: 16px;
+            line-height: 1.5;
+            margin-bottom: 15px;
+        }
+
+        .introduction ul {
+            list-style-type: none;
+            padding-left: 0;
+        }
+
+        .introduction li {
+            font-size: 16px;
+            line-height: 1.5;
+            margin-bottom: 10px;
+        }
+
+        .introduction li strong {
+            font-weight: bold;
+        }
+
+        .housing-price-index h2 {
+            font-size: 24px;
+            font-weight: bold;
+            margin-bottom: 15px;
+        }
+
+        .housing-price-index p {
+            font-size: 16px;
+            line-height: 1.5;
+            margin-bottom: 15px;
+        }
+
         /* Footer */
         footer {
             background-color: #2c3e50;
@@ -51,61 +91,62 @@
         <h1>The Perfect Storm: Understanding the 2008 Housing Crisis</h1>
     </header>
 
-    <main>
-        <section>
-            <h2>Introduction</h2>
-            <p>The 2008 housing market collapse marked one of the most significant economic crises in recent history, triggering widespread repercussions that were felt across multiple sectors of the economy. This catastrophic event resulted from a combination of various interconnected factors ranging from monetary policy and consumer behavior to structural shifts in the housing market. Understanding this "perfect storm" involves examining the sequential events and conditions that led to the collapse, highlighting how each component interacted to create a fragile financial ecosystem. Here are the key elements that contributed to the crisis:</p>
-            <ul>
-                <li><strong>Interest and Inflation:</strong> The period leading up to the crisis saw low interest rates, which encouraged borrowing and made mortgage loans more accessible. However, rising inflation also became a concern.</li>
-                <li><strong>Consumer Price Index (CPI):</strong> Consumer Price Index (CPI) : The CPI reflected rising consumer costs, including housing, during the pre-crisis period, indicating that more money was being spent on necessities, which compromised household budgets.</li>
-                <li><strong>HPI by State:</strong> HPI by State : Home Price Index (HPI) varied significantly across states, with many areas experiencing unsustainable increases in home prices during the housing bubble. This created disparities in housing affordability.</li>
-                <li><strong>Vacant Properties:</strong> As home prices began to fall, many homeowners who had purchased during the peak were unable to sell their homes, leading to an increase in vacant properties as foreclosures began to rise.</li>
-                <li><strong>Foreclosure:</strong> Foreclosure : The rising rates of foreclosure resulted when homeowners, many with subprime mortgages, could no longer afford their payments, causing a surge in properties entering the market and further driving down prices.</li>
-                <li><strong>Rent Occupied:</strong> With many people losing their homes, the demand for rental properties increased, leading to higher occupancy rates in rented homes but also pushing up rental prices in many markets.</li>
-                <li><strong>Unemployment:</strong> The housing market collapse contributed to widespread job losses, leading to higher unemployment rates as businesses shuttered or reduced their workforce due to economic uncertainty and less consumer spending.</li>
-            </ul>
-        </section>
-
-        <section>
-            <iframe width="120%" height="1200" frameborder="0"
-                src="https://observablehq.com/embed/3ec0efae4de0bb26@188?cell=*"></iframe>
-        </section>
-
-        <section>
-            <iframe width="100%" height="1200" frameborder="0"
-                src="https://observablehq.com/embed/a630956182f35eb2@187?cell=*"></iframe>
-        </section>
-
-        <section>
-            <iframe width="100%" height="950" frameborder="0"
-                src="https://observablehq.com/embed/10a98a7b0955cb45@422?cell=*"></iframe>
-        </section>
-
-        <section>
-           <iframe width="100%" height="800" frameborder="0"
-               src="https://observablehq.com/embed/41adf74c53c43a7a@24?cell=*"></iframe>
-        </section>
+<main>
+    <section class="introduction">
+        <h2>Introduction</h2>
+        <p>The 2008 housing market collapse marked one of the most significant economic crises in recent history, triggering widespread repercussions that were felt across multiple sectors of the economy. This catastrophic event resulted from a combination of various interconnected factors ranging from monetary policy and consumer behavior to structural shifts in the housing market. Understanding this "perfect storm" involves examining the sequential events and conditions that led to the collapse, highlighting how each component interacted to create a fragile financial ecosystem. Here are the key elements that contributed to the crisis:</p>
         
-        <section>
-           <iframe width="100%" height="800" frameborder="0" 
-        src="https://observablehq.com/embed/7cec85a53460b088?cell=*"
-        style="height: 800px !important;"></iframe>
-        </section>
+        <ul>
+            <li><strong>Interest and Inflation:</strong> The period leading up to the crisis saw low interest rates, which encouraged borrowing and made mortgage loans more accessible. However, rising inflation also became a concern.</li>
+            <li><strong>Consumer Price Index (CPI):</strong> The CPI reflected rising consumer costs, including housing, during the pre-crisis period, indicating that more money was being spent on necessities, which compromised household budgets.</li>
+            <li><strong>HPI by State:</strong> Home Price Index (HPI) varied significantly across states, with many areas experiencing unsustainable increases in home prices during the housing bubble. This created disparities in housing affordability.</li>
+            <li><strong>Vacant Properties:</strong> As home prices began to fall, many homeowners who had purchased during the peak were unable to sell their homes, leading to an increase in vacant properties as foreclosures began to rise.</li>
+            <li><strong>Foreclosure:</strong> The rising rates of foreclosure resulted when homeowners, many with subprime mortgages, could no longer afford their payments, causing a surge in properties entering the market and further driving down prices.</li>
+            <li><strong>Rent Occupied:</strong> With many people losing their homes, the demand for rental properties increased, leading to higher occupancy rates in rented homes but also pushing up rental prices in many markets.</li>
+            <li><strong>Unemployment:</strong> The housing market collapse contributed to widespread job losses, leading to higher unemployment rates as businesses shuttered or reduced their workforce due to economic uncertainty and less consumer spending.</li>
+        </ul>
+    </section>
 
-        <section>
-            <iframe width="100%" height="1500" frameborder="0"
-                src="https://observablehq.com/embed/5c7af4e4c6b423e8@352?cell=*"></iframe>
-        </section>
+    <section class="housing-price-index">
+        <h2>Housing Price Index by State (2000-2015)</h2>
+        <p>Leading up to 2008, the HPI showed a steep increase in housing prices. This led many to believe that home values would continue to rise, prompting increased speculation and investment in real estate.  The HPI indicated that homes were worth much more than their intrinsic value based on earnings and economic fundamentals. This overvaluation led to a bubble, which burst when prices began to fall.</p>
+        
+       <iframe width="100%" height="800" frameborder="0"
+           src="https://observablehq.com/embed/3ec0efae4de0bb26@191?cell=*"></iframe>
+    </section>
 
-        <section>
-            <h2>Impact</h2>
-            <p>The crisis had devastating effects on both homeowners and the global economy. Millions lost their homes, unemployment soared, and financial markets collapsed, leading to the worst recession since the Great Depression.</p>
-        </section>
-    </main>
+    <section class="housing-price-index">
+        <h2>United States HPI Annual Change % (2000-2015)</h2>
+        <p>This is place holder text for now.</p>
+        <iframe width="100%" height="1200" frameborder="0"
+            src="https://observablehq.com/embed/a630956182f35eb2@187?cell=*"></iframe>
+    </section>
 
-    <footer>
-        <p>&copy; 2024 2008 Housing Crisis. All rights reserved.</p>
-    </footer>
+    <section class="housing-price-index">
+        <h2>Inflation and Interest Rates (2000-2015)</h2>
+        <p> Interest rates were high in 2000 and began decreasing in 2001 to between 1% and 2% in 2002 - 2004.  The low interest rates encouraged borrowing and made mortgage loans more accessible.  Inflation decreased from 2000 to 2002 but began rising until 2006.  The raising inflation became a concern as household costs increased.</p>
+       <iframe width="100%" height="585" frameborder="0"
+           src="https://observablehq.com/embed/10a98a7b0955cb45@428?cells=viewof+chartSvg"></iframe>
+    </section>
 
-</body>
-</html>
+    <section class="housing-price-index">
+        <h2>Mortgage Originations in Billions USD (2000-2015)</h2>
+        <p>The process of mortgage origination contributes to economic activity. It stimulates the housing market, influences construction and employment in related sectors, and impacts consumer spending patterns. During the housing boom, lenders significantly increased mortgage originations, including a large volume of subprime loans. These loans were extended to borrowers with poor credit histories and insufficient income verification, which increased the risk of default.</p>
+       <iframe width="100%" height="661" frameborder="0"
+           src="https://observablehq.com/embed/41adf74c53c43a7a?cells=chart"></iframe>
+    </section>
+
+    <section class="housing-price-index">
+        <h2>US Foreclosure Rate (2000-2015)</h2>
+        <p>As home prices rose, lenders began to offer more mortgages to buyers with lower credit scores, known as subprime loans. The expectation was that rising prices would prevent defaults; however, many borrowers found themselves with loans they could not afford. As housing prices started to decline in 2006, many homeowners found themselves "underwater," meaning they owed more on their mortgages than their homes were worth. This led to a wave of foreclosures and defaults, contributing to the overall market instability.</p>
+       <iframe width="100%" height="660" frameborder="0"
+           src="https://observablehq.com/embed/7cec85a53460b088?cells=chart"></iframe>
+    </section>
+
+    <section class="housing-price-index">
+        <h2>US Unemployment Rate (2000-2015)</h2>
+        <p>The unemployment rate's rise from around 4% in 2000 to approximately 6% in 2003 can be attributed to several factors including market corrections and the aftermath of the dot-com bubble burst. As companies downsized and the economy adjusted, this uptick in unemployment occurred despite efforts like lowering interest rates to stimulate borrowing and spending. Simultaneously, the housing market began to flourish during this period. The decrease in interest rates made mortgages more affordable, encouraging home buying and driving up the Housing Price Index (HPI). Many consumers capitalized on these low rates, leading to a surge in housing demand and price escalation, which contributed to a housing bubble as speculative buying took place. However, this situation began to unravel in 2006 and 2007 when interest rates began to rise again, coupled with increased inflation. Rising interest rates generally cool off the housing market as mortgage costs climb, making it less attractive for homebuyers. As real estate became less affordable, the demand decreased, and home prices began to decline. Many homeowners, especially those who purchased at inflated prices or through risky loans, found themselves in negative equity situations. This led to a spike in foreclosures as people could no longer meet their mortgage obligations. The unemployment rate lagged behind these changes in the early stages of the recession that officially began in December 2007. Many companies were hesitant to lay off workers immediately despite the economic downturn, leading to a delay in the rise of unemployment. However, as foreclosures increased and the housing market continued to decline, it put additional strain on the economy. The construction industry suffered severe job losses, and defaults in housing contributed to broader financial instability which ultimately pushed the unemployment rate significantly higher by late 2008. Unlike the foreclosure rates and housing price index, the unemployment rate didn't reach it's peak until 2009 - 2010.</p>
+       <iframe width="100%" height="693" frameborder="0"
+          src="https://observablehq.com/embed/5c7af4e4c6b423e8?cells=chart"></iframe>
+    </section>
+</main>
