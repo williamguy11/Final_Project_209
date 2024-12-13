@@ -94,6 +94,25 @@
             padding: 1rem;
             margin-top: 2rem; /* Ensures spacing between content and footer */
         }
+        .video-section {
+    margin-bottom: 2rem;
+}
+
+.video-container {
+    position: relative;
+    padding-bottom: 56.25%; /* 16:9 aspect ratio */
+    height: 0;
+    overflow: hidden;
+    max-width: 100%;
+}
+
+.video-container iframe {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
     </style>
 </head>
 <body>
@@ -118,6 +137,13 @@
             <li><strong>Renter Occupied:</strong> With many people losing their homes, the demand for rental properties increased, leading to higher occupancy rates in rented homes but also pushing up rental prices in many markets.</li>
             <li><strong>Unemployment:</strong> The housing market collapse contributed to widespread job losses, leading to higher unemployment rates as businesses shuttered or reduced their workforce due to economic uncertainty and less consumer spending.</li>
         </ul>
+    </section>
+
+    <section class="video-section">
+        <h2>Video: Understanding the 2008 Financial Crisis</h2>
+        <div class="video-container">
+            <iframe width="560" height="315" src="https://www.youtube.com/embed/GfwotorwfS8" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+        </div>
     </section>
 
     <section class="housing-price-index">
