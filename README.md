@@ -18,4 +18,4 @@ The 2008 housing market collapse marked one of the most significant economic cri
 
 - **Unemployment**: The housing market collapse contributed to widespread job losses, leading to higher unemployment rates as businesses shuttered or reduced their workforce due to economic uncertainty and less consumer spending.  
 
-All visualizations were constructed on Observable
+All visualizations were constructed on Observable: https://observablehq.com/@william-guy?tab=recents
