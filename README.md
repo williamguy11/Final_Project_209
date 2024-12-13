@@ -1,5 +1,5 @@
 # The Perfect Storm: Understanding the 2008 Housing Market Collapse
-##Introduction
+## Introduction
 The 2008 housing market collapse marked one of the most significant economic crises in recent history, triggering widespread repercussions that were felt across multiple sectors of the economy. This catastrophic event resulted from a combination of various interconnected factors ranging from monetary policy and consumer behavior to structural shifts in the housing market. Understanding this "perfect storm" involves examining the sequential events and conditions that led to the collapse, highlighting how each component interacted to create a fragile financial ecosystem. Here are the key elements that contributed to the crisis:
 
 - **Interest and Inflation**: The period leading up to the crisis saw low interest rates, which encouraged borrowing and made mortgage loans more accessible. However, rising inflation also became a concern.  
