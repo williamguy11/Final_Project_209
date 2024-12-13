@@ -17,3 +17,5 @@ The 2008 housing market collapse marked one of the most significant economic cri
 - **Renter Occupied**: With many people losing their homes, the demand for rental properties increased, leading to higher occupancy rates in rented homes but also pushing up rental prices in many markets.  
 
 - **Unemployment**: The housing market collapse contributed to widespread job losses, leading to higher unemployment rates as businesses shuttered or reduced their workforce due to economic uncertainty and less consumer spending.  
+
+All visualizations were constructed on Observable
